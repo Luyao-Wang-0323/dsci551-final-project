@@ -11,6 +11,10 @@ https://www.digitalocean.com/community/tutorials/build-a-crud-web-app-with-pytho
 if there is a warning : "WARNING: This is a development server. Do not use it in a production deployment."
 export FLASK_ENV=development
 
+virtualenv env
+
+source env/bin/activate
+
 other reference:
 https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3#prerequisites
 
