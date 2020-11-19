@@ -12,3 +12,17 @@ export FLASK_ENV=development
 
 other reference:
 https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3#prerequisites
+
+web:http://127.0.0.1:5000/
+home:
+index: function:{register,login}
+if login successfully:
+  user dashboard: function:{serch, recommand(personalization), upload files(to firebase)} 
+or
+  admin user dashboard: function:{upload a lot of/single files to firebase, delete files from firebase, analize, update mysql}
+
+
+user: forms.py, views.py
+admin: forms.py, views.py
+forms.py: create class, including attributes and methods.
+views.py: initialize an object of the class and use its methods, connect database and commit the request, return a html template.
