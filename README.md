@@ -2,7 +2,7 @@
 knowledge graph web app
 
 
-install flask and vitual enviroment:
+# install flask and vitual enviroment:
 https://scotch.io/tutorials/getting-started-with-flask-a-python-microframework
 
 main references:
@@ -14,7 +14,7 @@ export FLASK_ENV=development
 other reference:
 https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3#prerequisites
 
-web:http://127.0.0.1:5000/
+# web:http://127.0.0.1:5000/
 
 home:
 
@@ -27,9 +27,8 @@ if login successfully:
 or
 
   admin user dashboard: function:{upload a lot of/single files to firebase, delete files from firebase, analize, update mysql}
-  
-
-
+ 
+# user and admin
 user: forms.py, views.py
 
 admin: forms.py, views.py
